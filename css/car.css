@@ -85,6 +85,7 @@
     height:0.23rem;
     display: flex;
     margin: 2rem 0 1.58rem 0;
+    line-height: 0.23rem;
 }
 .checked{
     width:0.24rem;
@@ -127,13 +128,13 @@
     width:100%;
     font-size: 0.24rem;
     letter-spacing: 0.125rem;
-    color: rgba(54,168,254,0.6);
+    color: rgba(54,168,254,0.8);
 }
 .pr::before{
     content: "";
     position: absolute;
     top:0.25rem;
-    left:-0.1rem;
+    left:-0.15rem;
     width: 0.05rem;
     height: 0.05rem;
     background-color: #44b5ff;
@@ -145,7 +146,7 @@
     content: "";
     position: absolute;
     top:0.1rem;
-    left:-0.1rem;
+    left:-0.15rem;
     width: 0.05rem;
     height: 0.05rem;
     background-color: #36d681;
@@ -164,7 +165,7 @@
     font-size: 0.2rem;
     letter-spacing: 0.008rem;
     color: #3bacfe;
-    opacity: 0.6;
+    opacity: 0.8;
 }
 .btn{
     width: 3.8rem;
